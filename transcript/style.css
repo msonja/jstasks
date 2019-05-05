@@ -1,0 +1,71 @@
+#all {
+  background-color: lightblue;
+  border-radius:10px;
+  padding: 20px;
+  border:1px solid;
+  display:inline-block;
+  /*height:500px;*/
+  margin:30px;
+  width:90%;
+  font-family: "Times New Roman", serif;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+button {
+  background-color: white;
+  color: grey;
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+button:focus {
+  background-color: lightgrey;
+  color: blue;
+}
+
+.cues {
+  color:blue;
+}
+
+.cues:hover {
+  text-decoration: underline;
+  background-color: lightgrey;
+}
+
+.cues.current {
+  color:black;
+  font-weight: bold;
+}
+
+#myVideo {
+    display: block;
+    float : left;
+    margin-right: 2.85714%;
+    width: 65.71429%;
+    background-color: black;
+    position: relative;
+}
+
+#transcript {
+  padding: 10px;
+  border:1px solid;
+  border-radius: 5px;
+  background-color: white;
+  float: left;
+  max-height: 225px;
+  overflow: auto;
+  width: 25%;
+  margin: 0;
+  font-size: 14px;
+  list-style: none;
+}
+
