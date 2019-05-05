@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Colourful HTML5 Video Player</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="myScript.js"></script> 
+</head>
+<body>
+    <main>
+
+        <!-- Header section -->
+        <header class="site-header">
+            <h1 class="site-title"><span class="title-five">HTML5</span> Video Player <span class="quiz" onclick="setQuiz();">Take Quiz?</span></h1>
+            <button id="pl-button" onclick="togglePlaylist();">Playlist</button>
+        </header>
+
+        <!-- Video and playlist section -->
+        <section class="video-container">
+
+            <!-- Video section -->
+            <video id="video" src="https://mainline.i3s.unice.fr/mooc/week2p1/video1.mp4" type="video/mp4" poster="https://mainline.i3s.unice.fr/mooc/week2p1/caminandes-1.jpg">
+                <p>
+                    Your browser doesn't support HTML5 video.
+                </p>
+            </video>
+
+            <!-- Playlist section -->
+            <section id="playlist">
+            </section>
+        </section>
+    
+        <!-- Video controls section -->
+        <section id="video-controls">
+            <button type="button" id="play-pause">Play</button>
+            <input type="range" id="seek-bar" value="0">
+            <button type="button" id="mute">Mute</button>
+            <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+            <button type="button" id="full-screen">Full-Screen</button>
+        </section>
+
+        <!-- Video description section -->
+        <section class="description">
+            <p id="video-description"></p>
+        </section>
+    </main>
+</body>
+</html>

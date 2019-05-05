@@ -1,0 +1,41 @@
+body {
+    font-family:sans-serif;
+    background-color:lightblue;
+  }
+  main {
+    margin:0 auto;
+    width:400px;
+    background-color:white;
+    padding:1.2em 2em 2em 2em;
+    border-radius:1em;
+    position:relative;
+  }
+  fieldset {
+    display:block;
+    width:375px;
+    border:1px solid black;
+    margin:0 0;
+  }
+  #myCanvas {
+    border: 1px solid black;
+    margin:.5em auto;  
+  }
+  
+  #game-over {
+    position:absolute;
+    z-index:2;
+    top:0;
+    width:90%;
+    height:100%;
+    background-color:rgba(255,255,255,0.7);
+    text-align:center;
+    cursor:pointer;
+  }
+  #game-over h2 {
+    margin-top:2em;
+    font-size:4em;
+  }
+  
+  .display-none {
+      display:none;
+  }
